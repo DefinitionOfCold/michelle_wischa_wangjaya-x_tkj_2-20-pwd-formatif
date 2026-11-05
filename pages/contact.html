@@ -13,12 +13,18 @@
         }
 
         #contact {
-            max-width: 300px;
-            margin: 20px auto;
-            padding: 20px;
+            padding: 40px 20px;
+        }
+
+        .contact-form {
+            width: 400px;
+            align-items: center;
+            margin: 0 auto;
+            padding: 24px;
             background-color: white;
             border-radius: 10px;
-            border: 2px solid #b8b8b8;
+            border: 1px solid #b8b8b8;
+            box-sizing: border-box;
         }
 
         .contact-form h2 {
@@ -28,10 +34,11 @@
         }
 
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 16px;
         }
 
         .form-group label {
+            font-weight: bold;
             display: block;
             margin-bottom: 5px;
             color: black;
@@ -40,15 +47,20 @@
         .form-group input,
         .form-group textarea {
             width: 100%;
+            padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box
         }
 
-        .form-group textarea {
-            resize: vertical;
+        .form-group input:focus,
+        .form-group textarea:focus {
+        background-color: #e6f0ff;
+        outline: none;
+        resize: vertical;
         }
 
-        button {
+        .btn-submit {
             display: block;
             width: 100%;
             padding: 10px;
@@ -59,7 +71,7 @@
             cursor: pointer;
         }
 
-        button:hover {
+        .btn-submit:hover {
             background-color: #0f3d5c;
         }
 
@@ -97,7 +109,7 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
 
-            <button type="submit">Kirim Pesan</button>
+            <button type="submit" class="btn-submit">Kirim Pesan</button>
         </form>
     </section>
 
