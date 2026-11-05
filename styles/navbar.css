@@ -4,10 +4,64 @@ body {
     background-color: #f5eede;
 }
 
-header {
+#main-header {
     background-color: #17597c;
-    padding: 10px 20px;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu > li {
+    list-style: none;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main-part {
+    padding: 20px;
+    text-align: left;
+}
+
+.main-part h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.main-part p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.nav-menu a:hover {
+    color: #a0e6ff;
 }
