@@ -5,7 +5,7 @@ body {
 
 #hero {
     height: 400px;
-    background-image: url('../assets/images/HeroPicture.png');
+    background-image: url('../assets/images/HeroPicture.jpg');
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -40,11 +40,10 @@ body {
     animation-delay: 0.6s;
 }
 
-
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e67e22;
+    background-color: #17597c;
     color: white;
     text-decoration: none;
     border-radius: 4px;
