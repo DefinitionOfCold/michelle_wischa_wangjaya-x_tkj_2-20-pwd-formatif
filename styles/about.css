@@ -18,16 +18,19 @@ body {
 
 
 main {
-    background-image: url('../assets/images/background.png');
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 #about {
+    background-image: url('../assets/images/background.jpg');
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
 }
@@ -57,7 +60,6 @@ main {
 }
 
 footer {
-    text-align: center;
     margin: 20px auto;
     max-width: 200px;       
     padding: 20px;            
