@@ -1,3 +1,4 @@
+/* Pengaturan dasar halaman dan body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     min-height: 100vh;
 }
 
+/* Styling bagian kepala portofolio */
 header {
     text-align: center;
     background-color: #17597c;
@@ -12,6 +14,7 @@ header {
     padding: 30px;
 }
 
+/* Pengaturan tata letak kontainer utama (main) */
 main {
     flex: 1;
     max-width: 800px;
@@ -21,6 +24,7 @@ main {
     box-sizing: border-box;
 }
 
+/* Styling judul bagian dalam komponen dan halaman */
 #components h2,
 #pages h2 {
     color: #17597c;
@@ -30,26 +34,32 @@ main {
     margin-top: 20px;
 }
 
+/* Styling daftar list */
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
 
+
+/* Styling item daftar */
 li {
     margin-bottom: 8px;
 }
 
+/* Styling tautan navigasi dalam konten utama */
 main a {
     color: #e67e22;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* Efek garis bawah dan perubahan warna pada tautan */
 main a:hover {
     text-decoration: underline;
     color: #b96316;
 }
 
+/* Styling bagian bawah halaman */
 footer {
     background-color: #c5c4c3;
     text-align: center;
