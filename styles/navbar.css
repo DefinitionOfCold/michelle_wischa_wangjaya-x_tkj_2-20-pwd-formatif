@@ -1,25 +1,30 @@
+/* Pengaturan dasar halaman dan body */
 body {
     margin: 0;
     padding: 0;
     background-color: #f5eede;
 }
 
+/* Styling header utama */  
 #main-header {
     background-color: #17597c;
 }
 
+/* Pengaturan tata letak dan container navbar */    
 .navbar {
     justify-content: space-between;
     padding: 5px 35px;
     font-family: Arial, sans-serif;
 }
 
+/* Styling teks logo pada navbar */
 .logo {
     font-size: 22px;
     font-weight: bold;
     color: #fff;
 }
 
+/* Pengaturan daftar menu navigasi */
 .nav-menu {
     display: flex;
     gap: 24px;
@@ -27,25 +32,30 @@ body {
     padding: 0;
 }
 
+/* Menghilangkan titik point pada list menu */
 .nav-menu > li {
     list-style: none;
 }
 
+/* Styling tautan pada menu navigasi */
 .nav-menu a {
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
 
+/* Efek warna saat kursor menyorot tautan navigasi */
 .nav-menu a:hover {
     color: #a0e6ff;
 }
 
+/* Pengaturan kontainer bagian konten utama */
 .main-part {
     padding: 20px;
     text-align: left;
 }
 
+/* Styling judul di dalam konten utama */
 .main-part h2 {
     font-size: 24px;
     color: black;
@@ -53,6 +63,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Styling paragraf di dalam konten utama */
 .main-part p {
     font-size: 16px;
     color: #333;
@@ -60,6 +71,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Styling bagian footer halaman */
 footer {
     text-align: center;
 }
