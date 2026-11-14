@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta informasi dan judul komponen kumpulan tombol -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kumpulan Buttons</title>
 
     <style>
+        /* Pengaturan dasar halaman dan kontainer */
         body {
             background-color: #f5eede;
             margin: 0;
@@ -25,6 +27,7 @@
             font-family: Georgia, serif;
         }
 
+        /* Styling dasar tombol umum */
         .btn {
             display: inline-block;
             padding: 12px 24px;
@@ -34,35 +37,44 @@
             cursor: pointer;
         }
 
-        .button-group{
+        /* Aturan margin kanan dan bawah untuk setiap tombol dalam grup */
+        .button-group .btn{
             margin-right: 10px;
             margin-bottom: 10px;
         }
 
+        /* Variasi Tombol Primary */
         .btn-primary {
             background-color: #17597c;
             color: white;
             border: none;
         }
 
+        /* Aturan grouping untuk warna tulisan gelap pada Secondary dan Outline */
+        .btn-secondary, .btn-outline {
+            color: #081d29;
+        }
+
+        /* Variasi Tombol Secondary */
         .btn-secondary {
             background-color: #c5d3e0;
-            color: #081d29;
             border: none;
         }
 
+        /* Variasi Tombol Outline */
         .btn-outline {
             background-color: white;
-            color: #17597c;
             border: 2px solid #081d29;
         }
 
+        /* Variasi Tombol Send */
         .btn-send {
             background-color: rgb(133, 178, 207);
             color: white;
             border: none;
         }
 
+        /* Efek Hover untuk masing-masing tombol */
         .btn-primary:hover{
             background-color: #081d29;
         }
@@ -81,13 +93,23 @@
             background-color: #17597c;
         }
 
+        /* Pengaturan tampilan footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f5eede;
+        }
+
     </style>
 </head>
 
 <body>
     <main>
+        <!-- Judul Bagian Menu -->
         <h2>Pilihan Menu dan Aksi</h2>
 
+        <!-- Kelompok Tombol-tombol Aksi -->
         <div class="button-group">
             <a href="#" class="btn btn-primary">Lihat Proyek</a>
             <a href="#" class="btn btn-secondary">Unduh CV</a>
@@ -96,6 +118,8 @@
         </div>
     </main>
 
+
+    <!-- Bagian Footer untuk Kembali ke Beranda -->
     <footer>
         <a href="../index.html">Kembali ke Beranda</a>
     </footer> 
