@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta informasi dokumen dan judul halaman kontak -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
+        /* Pengaturan dasar halaman dan body */
         body {
             background-color: #f5eede;
             margin: 0px;
@@ -12,10 +14,12 @@
             font-family: Arial, sans-serif;
         }
 
+        /* Styling bagian seksi kontak */
         #contact {
             padding: 40px 20px;
         }
 
+        /* Styling kontainer formulir kontak */
         .contact-form {
             width: 400px;
             align-items: center;
@@ -27,16 +31,20 @@
             box-sizing: border-box;
         }
 
+        /* Styling judul di dalam formulir */
         .contact-form h2 {
             margin-top: 0;
             text-align: center;
             color: #17597c;
         }
 
+        /* Pengaturan kelompok elemen form */
+
         .form-group {
             margin-bottom: 16px;
         }
 
+        /* Styling label pada formulir */
         .form-group label {
             font-weight: bold;
             display: block;
@@ -44,6 +52,7 @@
             color: black;
         }
 
+        /* Styling input dan textarea formulir */
         .form-group input,
         .form-group textarea {
             width: 100%;
@@ -53,13 +62,15 @@
             box-sizing: border-box
         }
 
+        /* Efek fokus pada input dan textarea */
         .form-group input:focus,
         .form-group textarea:focus {
-        background-color: #e6f0ff;
-        outline: none;
-        resize: vertical;
+            background-color: #e6f0ff;
+            outline: none;
+            resize: vertical;
         }
 
+        /* Styling tombol kirim pesan */
         .btn-submit {
             display: block;
             width: 100%;
@@ -71,10 +82,12 @@
             cursor: pointer;
         }
 
+        /* Efek hover pada tombol kirim pesan */
         .btn-submit:hover {
             background-color: #0f3d5c;
         }
 
+        /* Styling bagian footer halaman */
         footer {
             text-align: center;
             margin-top: 20px;
@@ -82,6 +95,7 @@
             background-color: #f5eede;
         }
 
+        /* Styling tautan umum pada halaman */
         a {
             color: #17597c;
             text-decoration: none;
@@ -91,7 +105,10 @@
     </style>
 </head>
 <body>
+    <!-- Bagian Konten Kontak Utama -->
     <section id="contact">
+
+        <!-- Formulir Kontak Pengguna -->
         <form class="contact-form">
             <h2>Hubungi Saya</h2>
             <div class="form-group">
@@ -113,7 +130,8 @@
         </form>
     </section>
 
-     <footer style="text-align: center; margin-top: 20px; padding: 10px; background-color: #f5eede;">
+    <!-- Bagian Footer Halaman untuk Kembali ke Beranda -->
+     <footer>
         <a href="../index.html">Kembali ke Beranda</a>
     </footer>
     
