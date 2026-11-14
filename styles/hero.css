@@ -7,7 +7,7 @@ body {
 /* Styling bagian hero dengan latar belakang gambar */
 #hero {
     height: 400px;
-    background-image: url('../assets/images/HeroPicture.jpg');
+    background-image: url('../assets/images/hero-picture.jpg');
     background-color: black;
     background-size: cover;
     background-position: center;
