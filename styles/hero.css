@@ -1,8 +1,10 @@
+/* Pengaturan dasar halaman dan body */
 body {
     margin: 0;
     background-color: #f5eede;
 }
 
+/* Styling bagian hero dengan latar belakang gambar */
 #hero {
     height: 400px;
     background-image: url('../assets/images/HeroPicture.jpg');
@@ -16,6 +18,7 @@ body {
 
 }
 
+/* Styling kotak teks di dalam hero section */
 .hero-content {
     width: 640px;
     padding: 30px;
@@ -24,7 +27,7 @@ body {
     color: white;
 }
 
-
+/* Pengaturan animasi teks untuk judul dan paragraf */
 .hero-content h1,
 .hero-content p {
     animation-name: slide-up;
@@ -36,10 +39,12 @@ body {
     animation-fill-mode: backwards;
 }
 
+/* Penundaan waktu animasi khusus untuk paragraf agar muncul lambat */
 .hero-content p {
     animation-delay: 0.6s;
 }
 
+/* Styling tombol di dalam hero section */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -51,6 +56,7 @@ body {
     margin-top: 15px;
 }
 
+/* Definisi animasi pergerakan naik dan perubahan opasitas */
 @keyframes slide-up {
     0% {
         transform: translateY(60px);
@@ -74,6 +80,7 @@ body {
     }
 }
 
+/* Styling bagian bawah halaman (footer) */
 footer {
     text-align: center;
     padding: 20px;
