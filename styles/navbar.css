@@ -12,8 +12,10 @@ body {
 
 /* Pengaturan tata letak dan container navbar */    
 .navbar {
+    display: flex;           
+    align-items: center;
     justify-content: space-between;
-    padding: 5px 35px;
+    padding: 15px 35px;
     font-family: Arial, sans-serif;
 }
 
